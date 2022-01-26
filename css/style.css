@@ -1,4 +1,5 @@
 /* Gerais */
+
 body {
     font-family: 'Roboto' , sans-serif;
 }
@@ -17,6 +18,7 @@ p, li {
 }
 
 /* Barra de navegação*/
+
 header, .navbar {
     background-color: #353d41;
 }
@@ -109,11 +111,13 @@ header, .navbar {
 .main-title::after {
     content:"";
     border-top: 2px solid #333;
-    width: 15%;
+    width: 8%;
     position: absolute;
-    top: 60px;
-    left: 42.5%;
+    top: 990px;
+    left: 45.8%;
+}
 
+/* OUTRA OPÇÃO QUE EU MESMO FIZ /
     /*
 .absolute {
    height:5px;
@@ -121,5 +125,130 @@ header, .navbar {
    background-color: #333;
     position: absolute;
     top: 1080px;
-    right: 42.5%;*/
+    right: 42.5%;
+ } */
+
+
+.about-title {
+    font-size: 20px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 55px;
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 15px;
+}
+
+/* Serviços */
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #65DAF9;
+}
+
+/*Dados da Empresa*/
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/* Time*/
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Trabalhe conosco */ 
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    text-align: center;
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    padding: 70px 50px ;
+}
+
+#company-img {
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4 {
+   color: #FFF;
+   margin-top: 15%;
+   margin-bottom: 5%;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+#pattern-img p {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /*background-color: transparent;*/
+    border-color: #FFF;
+}
+
+#apply-btn :hover {
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+}
+
