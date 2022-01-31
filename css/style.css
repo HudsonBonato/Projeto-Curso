@@ -1,7 +1,7 @@
 /* Gerais */
 
 body {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -12,14 +12,16 @@ body {
     padding: 70px 0;
 }
 
-p, li {
+p,
+li {
     color: #444;
     font-size: 14px;
 }
 
 /* Barra de navegação*/
 
-header, .navbar {
+header,
+.navbar {
     background-color: #353d41;
 }
 
@@ -51,7 +53,8 @@ header, .navbar {
     padding: 0;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item {
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
     height: 90vh;
 }
 
@@ -105,16 +108,21 @@ header, .navbar {
     color: #444;
     margin: 0 0 65px 0;
     font-size: 40px;
-    text-align: center;    
+    text-align: center;
 }
 
-.main-title::after {
-    content:"";
-    border-top: 2px solid #333;
+.main-title:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #333;
+    margin: 20px auto;
+    /*border-top: 2px solid #333;
     width: 8%;
     position: absolute;
-    top: 990px;
-    left: 45.8%;
+    top: 60px;
+    left: 45%;*/
 }
 
 /* OUTRA OPÇÃO QUE EU MESMO FIZ /
@@ -156,7 +164,8 @@ header, .navbar {
     margin-bottom: 50px;
 }
 
-.service-box i, .service-box h4 {
+.service-box i,
+.service-box h4 {
     transition: .5s;
 }
 
@@ -171,7 +180,8 @@ header, .navbar {
     margin-bottom: 20px;
 }
 
-.service-box:hover > i, .service-box:hover > h4 {
+.service-box:hover>i,
+.service-box:hover>h4 {
     color: #65DAF9;
 }
 
@@ -203,18 +213,19 @@ header, .navbar {
     font-weight: bold;
 }
 
-/* Trabalhe conosco */ 
+/* Trabalhe conosco */
 #apply-area {
     height: 500px;
 }
 
-#apply-area .container-fluid, #apply-area .row {
+#apply-area .container-fluid,
+#apply-area .row {
     text-align: center;
     height: 100%;
 }
 
 #apply-area .apply-box {
-    padding: 70px 50px ;
+    padding: 70px 50px;
 }
 
 #company-img {
@@ -224,11 +235,11 @@ header, .navbar {
 }
 
 #pattern-img h4 {
-   color: #FFF;
-   margin-top: 15%;
-   margin-bottom: 5%;
-   text-transform: uppercase;
-   font-weight: bold;
+    color: #FFF;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #pattern-img p {
@@ -252,3 +263,194 @@ header, .navbar {
     background-color: #65DAF9;
 }
 
+
+/* Portfolio */
+#filter-btn-box {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px 20px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
+    color: #FFF;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+}
+
+
+/* Newsletter*/
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid #65DAF9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #65DAF9;
+    background-color: #65DAF9;
+    text-transform: uppercase;
+    color: #FFF;
+    height: 40px;
+    padding: 0 30px;
+    /*margin-left: -130px;*/
+    margin-left: -4px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #FFF;
+    color: #65DAF9;
+}
+
+
+/* call to action */
+#call-area {
+    background-color: #65DAF9;
+    text-transform: uppercase;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    /*height: 60px;
+    line-height: 60px;*/
+}
+
+#call-area #call-btn {
+    font-size: 24px;
+    background-color: #FFF;
+    color: #65DAF9;
+    font-weight: bold;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    width: auto;
+}
+
+#call-area #call-btn:hover {
+    background-color: #353d41;
+    color: #FFF;
+}
+
+
+/* Footer */
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3ec1d5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form  textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3ec1d5;
+}
+
+
+/* Copy */
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3ec1d5;
+}
