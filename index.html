@@ -37,10 +37,10 @@
 <body>
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed top">
+            <nav class="navbar navbar-expand-lg fixed top navbar-dark">
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="img/hdcagency_logo.svg" alt="HB Agency"> HB Agency</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,9 +48,9 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" id="home-menu">Home</a>
                         <a class="nav-item nav-link" id="about-menu">Agencia</a>
-                        <a class="nav-item nav-link" id="srevices-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
                         <a class="nav-item nav-link" id="team-menu">Time</a>
-                        <a class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
                         <a class="nav-item nav-link" id="contact-menu">Contato</a>
                     </div>
                 </div>
@@ -65,10 +65,18 @@
                     <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
                     <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
                 </ol>
+                <!--<div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div> -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Quer criar um e-commerce?</h2>
                             <p>Conte conosco, temos mais de 30 lojas no portfólio.</p>
                             <a href="#" class="main-btn">Ver portfólio!</a>
@@ -76,7 +84,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Esta querendo tirar o projeto do papel?</h2>
                             <p>Nossa equipe de engenharia de software esta pronta para lhe atender.</p>
                             <a href="#" class="main-btn">Entre em contato!</a>
@@ -84,7 +92,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Esta buscando manutenção no seu software?</h2>
                             <p>A HB Agency conta com engenheiros altamente qualificados para resolver o seu problema.
                             </p>
@@ -173,7 +181,7 @@
                 </div>
             </div>
             <!--Dado da Empresa-->
-            <div class="data-area">
+            <div id="data-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 circle-box">
